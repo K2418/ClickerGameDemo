@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ClickerGameDemo</string>
+    <string name="clicker1">Clicker1</string>
+    <string name="clicker2">Clicker2</string>
+    <string name="clicker3">Clicker3</string>
+    <string name="start">Choose a clickable from the menu on top to get started!</string>
+    <string name="nose_desc">Nose</string>
+    <string name="monster_desc">Monster</string>
+    <string name="cookie_desc">Cookie</string>
+</resources>

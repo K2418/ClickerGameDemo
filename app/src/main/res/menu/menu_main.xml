@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/clicker1"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/cookie1"
+        android:title="@string/clicker1"/>
+    <item
+        android:id="@+id/clicker2"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/monster1"
+        android:title="@string/clicker2"/>
+    <item
+        android:id="@+id/clicker3"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/nose1"
+        android:title="@string/clicker3"/>
+</menu>
