@@ -75,7 +75,7 @@ public class CookieClicker extends Activity {
         // create a new notification
         Notification notification  = new Notification.Builder(this)
                 .setCategory(Notification.CATEGORY_MESSAGE)
-                .setContentTitle("PTM notification")
+                .setContentTitle("Clicker notification")
                 .setContentText("Cookie clicked " + number + " times! Please stop already..")
                 .setSmallIcon(R.drawable.cookie1)
                 .setAutoCancel(true)
@@ -90,7 +90,7 @@ public class CookieClicker extends Activity {
         // create a new notification
         Notification notification  = new Notification.Builder(this)
                 .setCategory(Notification.CATEGORY_MESSAGE)
-                .setContentTitle("PTM notification")
+                .setContentTitle("Clicker notification")
                 .setStyle(new Notification.BigTextStyle().bigText("Cookie clicked " + number + " times! Please stop already.. Click me to save yourself!"))
                 .setSmallIcon(R.drawable.cookie1)
                 .setAutoCancel(true)

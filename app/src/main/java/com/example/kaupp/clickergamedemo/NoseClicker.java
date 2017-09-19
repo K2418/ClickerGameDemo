@@ -72,7 +72,7 @@ public class NoseClicker extends Activity {
         // create a new notification
         Notification notification  = new Notification.Builder(this)
                 .setCategory(Notification.CATEGORY_MESSAGE)
-                .setContentTitle("PTM notification")
+                .setContentTitle("Clicker notification")
                 .setContentText("Nose picked " + number + " times! Your nose gets loose!")
                 .setSmallIcon(R.drawable.nose1)
                 .setAutoCancel(true)
@@ -87,7 +87,7 @@ public class NoseClicker extends Activity {
         // create a new notification
         Notification notification  = new Notification.Builder(this)
                 .setCategory(Notification.CATEGORY_MESSAGE)
-                .setContentTitle("PTM notification")
+                .setContentTitle("Clicker notification")
                 .setStyle(new Notification.BigTextStyle().bigText("Nose picked " + number + " times! You are boogerman!"))
                 .setSmallIcon(R.drawable.cookie1)
                 .setAutoCancel(true)

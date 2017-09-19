@@ -72,7 +72,7 @@ public class MonsterClicker extends Activity {
         // create a new notification
         Notification notification  = new Notification.Builder(this)
                 .setCategory(Notification.CATEGORY_MESSAGE)
-                .setContentTitle("PTM notification")
+                .setContentTitle("Clicker notification")
                 .setContentText("Monster clicked " + number + " times! Please stop already..")
                 .setSmallIcon(R.drawable.cookie1)
                 .setAutoCancel(true)
@@ -87,7 +87,7 @@ public class MonsterClicker extends Activity {
         // create a new notification
         Notification notification  = new Notification.Builder(this)
                 .setCategory(Notification.CATEGORY_MESSAGE)
-                .setContentTitle("PTM notification")
+                .setContentTitle("Clicker notification")
                 .setStyle(new Notification.BigTextStyle().bigText("Monster clicked " + number + " times! Please stop already.. Click me to save yourself!"))
                 .setSmallIcon(R.drawable.cookie1)
                 .setAutoCancel(true)
